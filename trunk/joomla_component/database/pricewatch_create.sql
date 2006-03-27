@@ -6,9 +6,9 @@ AUTO_INCREMENT = 0;
 
 CREATE TABLE amazon_product (
   asin VARCHAR(10) NOT NULL,
-  amazon_price FLOAT NULL,
-  3rdparty_new_price FLOAT NULL,
-  3rdparty_used_price FLOAT NULL,
+  amazon_price INT NULL,
+  3rdparty_new_price INT NULL,
+  3rdparty_used_price INT NULL,
   amazon_availabillity TINYTEXT NULL,
   image_small TINYTEXT NULL,
   PRIMARY KEY(asin)
@@ -29,9 +29,9 @@ CREATE TABLE priceguard_categories (
 
 CREATE TABLE amazon_product_old__temp (
   amazon_product_asin VARCHAR(10) NOT NULL,
-  amazon_price_old FLOAT NULL,
-  3rdparty_new_price_old FLOAT NULL,
-  3rdparty_used_price_old FLOAT NULL,
+  amazon_price_old INT NULL,
+  3rdparty_new_price_old INT NULL,
+  3rdparty_used_price_old INT NULL,
   amazon_availabillity_old TINYTEXT NULL,
   PRIMARY KEY(amazon_product_asin),
   INDEX amazon_product_old__temp_FKIndex1(amazon_product_asin),
@@ -49,9 +49,9 @@ CREATE TABLE priceguard_product (
   name TINYTEXT NOT NULL,
   guard_availabillity BOOL NOT NULL DEFAULT 'false',
   deadline INTEGER UNSIGNED NULL DEFAULT NULL,
-  remind_price_amazon FLOAT NULL DEFAULT NULL,
-  remind_price_amazon_3rdparty_new FLOAT NULL DEFAULT NULL,
-  remind_price_amazon_3rdparty_used FLOAT NULL DEFAULT NULL,
+  remind_price_amazon INT NULL DEFAULT NULL,
+  remind_price_amazon_3rdparty_new INT NULL DEFAULT NULL,
+  remind_price_amazon_3rdparty_used INT NULL DEFAULT NULL,
   PRIMARY KEY(id),
   INDEX product_FKIndex1(priceguard_categories_id),
   INDEX priceguard_product_FKIndex2(amazon_product_asin),
