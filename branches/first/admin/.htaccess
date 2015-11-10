@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Pricewatch Admin - "
+AuthUserFile /kunden/116846_36208/webseiten/www.priceguard.de/admin/.htpasswd01
+require valid-user

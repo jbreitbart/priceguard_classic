@@ -1,0 +1,22 @@
+.rand             { background-color:#FAFAFA; border-width:2; border-color:#E0DFE3; border-style:dashed; padding:4px;}
+
+.menu             { Cursor:Hand; text-align:center; vertical-align:middle; background-color:#FAFAFA; border-width:2; border-color:#E0DFE3; border-style:dashed; padding:0px; border-right:''}
+.menu_deak        { text-align:center; vertical-align:middle; background-color:#FAFAFA; border-width:2; border-color:#E0DFE3; border-style:dashed; padding:0px; border-right:''}
+.menu_voll        { Cursor:Hand; text-align:center; vertical-align:middle; background-color:#FAFAFA; border-width:2; border-color:#E0DFE3; border-style:dashed; padding:0px;}
+.menu_voll_deak   { text-align:center; vertical-align:middle; background-color:#FAFAFA; border-width:2; border-color:#E0DFE3; border-style:dashed; padding:0px;}
+.menu_aktiv   	  { Cursor:Hand; text-align:center; vertical-align:middle; background-color:#CFCDD5; border-width:2; border-color:#E0DFE3; border-style:dashed; padding:0px; border-right:''}
+
+.ueberschrift     { text-align:center; font-family:Verdana, Tahoma, Arial; font-size: 13pt; color:gray; font-variant:small-caps; font-weight:600; word-spacing:4pt; letter-spacing:1.5pt}
+
+.news_uebershrift { font-family:Verdana, Tahoma, Arial; font-size: 10pt; color:gray; font-variant:small-caps; font-weight:500; word-spacing:1pt; letter-spacing:1.2pt}
+.news_rahmen      { border-width:1; border-color:#CFCDD5; border-style:solid; padding:0px; border-right:''; border-top:''; border-left:'';}
+.news_rahmen2      { border-width:2; border-color:#CFCDD5; border-style:solid; padding:0px; border-right:''; border-top:''; border-left:'';}
+
+TABLE, TR, TD     { font-family:Verdana, Tahoma, Arial;font-size: 8pt; color:gray}
+
+a:link, a:visited, a:active  { text-decoration:underline; color:#000000 }
+
+.codebuttons       { font-size: 9pt; font-family: verdana, helvetica, sans-serif; vertical-align:middle }
+.forminput         { font-size: 10pt; font-family: verdana, helvetica, sans-serif; vertical-align:middle; background-color:CFCFCF }
+.textinput         { font-size: 9pt; font-family: verdana, helvetica, sans-serif;vertical-align:middle }
+.input             { font-size: 9pt; font-family: verdana, helvetica, sans-serif; vertical-align:middle }

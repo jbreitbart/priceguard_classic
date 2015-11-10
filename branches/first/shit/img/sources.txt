@@ -1,0 +1,3 @@
+background: http://stock-free-images.com/image/wallpaper-of-green-jungle
+poo: https://www.iconfinder.com/icons/175252/poo_icon#size=128
+airplane: https://www.iconfinder.com/icons/175097/airplane_takeoff_icon#size=128
