@@ -4,7 +4,7 @@ include ("amazon.inc");
 
 $mysql_host = "mysql4.priceguard.de";
 $mysql_user="db116846_14";
-$mysql_pass="Jensman23";
+$mysql_pass="xxxx";
 $mysql_db="db116846_14";
 $url = "http://www.priceguard.de";
 $name = "Amazon.de Pricewatch";
